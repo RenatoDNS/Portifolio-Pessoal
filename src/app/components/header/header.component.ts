@@ -9,12 +9,13 @@ import {
   heroSunSolid,
   heroMoonSolid,
 } from '@ng-icons/heroicons/solid';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   styleUrl: './header.scss',
   templateUrl: './header.html',
-  imports: [NgIcon],
+  imports: [NgIcon, RouterLink],
   providers: [
     provideIcons({
       heroHomeSolid,

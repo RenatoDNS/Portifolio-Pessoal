@@ -1,13 +1,9 @@
 <div id="particles-js"></div>
 
-<app-header [theme]="theme" (changeTheme)="toggleTheme()"></app-header>
-<main>
-  <section id="sobre">
-    <app-sobre-mim></app-sobre-mim>
-  </section>
-  <section id="projetos">
-    <app-projetos></app-projetos>
-  </section>
-  <section id="contato"></section>
-</main>
+<div
+  class="h-screen [&::-webkit-scrollbar]:[width:6px] dark:[&::-webkit-scrollbar-thumb]:bg-darkNeutral [&::-webkit-scrollbar-thumb]:bg-primary-500 overflow-y-auto [&::-webkit-scrollbar-thumb]:[border-radius:3px]"
+>
+  <app-header [theme]="theme" (changeTheme)="toggleTheme()"></app-header>
+  <router-outlet />
+</div>
 <!-- <footer class="flex h-28 bg-primary-800 mt-auto"></footer> -->

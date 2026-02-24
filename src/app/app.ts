@@ -24,11 +24,7 @@ export class App implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.invokeParticles();
-  }
-
-  public invokeParticles(): void {
-    particlesJS('particles-js', ParticlesConfig, function () {});
+    invokeParticles();
   }
 
   toggleTheme() {
@@ -41,4 +37,8 @@ export class App implements OnInit {
       this.theme = 'dark';
     }
   }
+}
+
+export function invokeParticles(): void {
+  particlesJS('particles-js', ParticlesConfig, function () {});
 }
