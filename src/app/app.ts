@@ -1,22 +1,22 @@
 import { Component, DOCUMENT, Inject, OnInit, Renderer2, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
-import { ParticlesConfig } from './particles-config';
-import { SobreComponent } from './components/sobre/sobre.component';
-import { ProjetosComponent } from './components/projetos/projetos.component';
+import { ParticlesConfigDark, ParticlesConfigLight } from './particles-config';
 
 declare let particlesJS: any;
 
+let theme: 'light' | 'dark' = 'dark';
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, SobreComponent, ProjetosComponent],
+  imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
 export class App implements OnInit {
   protected readonly title = signal('PortfolioLaboratorio');
 
-  theme: 'light' | 'dark' = 'dark';
+  theme = theme;
 
   constructor(
     private renderer: Renderer2,
@@ -36,9 +36,15 @@ export class App implements OnInit {
       this.renderer.addClass(htmlEl, 'dark');
       this.theme = 'dark';
     }
+    theme = this.theme;
+    invokeParticles();
   }
 }
 
 export function invokeParticles(): void {
-  particlesJS('particles-js', ParticlesConfig, function () {});
+  particlesJS(
+    'particles-js',
+    theme === 'dark' ? ParticlesConfigDark : ParticlesConfigLight,
+    function () {},
+  );
 }
