@@ -65,13 +65,25 @@
         }
       </div>
 
+      @if (successMessage) {
+        <div class="bg-green-500 text-white p-3 rounded-lg">
+          {{ successMessage }}
+        </div>
+      }
+
+      @if (errorMessage) {
+        <div class="bg-red-500 text-white p-3 rounded-lg">
+          {{ errorMessage }}
+        </div>
+      }
+
       <button
         type="submit"
-        [disabled]="contatoForm.invalid"
+        [disabled]="contatoForm.invalid || isLoading"
         class="flex items-center justify-center gap-2 bg-primary-500 hover:bg-primary-600 text-white font-bold py-3 px-6 rounded-lg shadow-[0_0_20px_var(--color-primary-500)] hover:shadow-[0_0_30px_var(--color-primary-500)] transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none"
       >
         <ng-icon name="heroPaperAirplaneSolid"></ng-icon>
-        {{ tSer.translate('contatoEnviar') }}
+        {{ isLoading ? 'Enviando...' : tSer.translate('contatoEnviar') }}
       </button>
     </form>
   </div>
