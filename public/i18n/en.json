@@ -8,12 +8,13 @@
   "tituloOla": "Hello, welcome in!",
   "euSou": "I am",
 
-  "pApresentacao1": "I'm 21 years old, currently studying",
+  "pApresentacao1": "Student of ",
   "engSoftware": "Software Engineering",
-  "pApresentacao2": "at PUC Minas. I started to code 2 years ago and since then I had contact with many technologies, mainly",
+  "pApresentacao2": "at PUC Minas and Backend Intern ",
+  "pApresentacao3": " in the financial sector. Experience with APIs and microservices using Java, Spring, Micronaut, Kafka, and AWS, as well as Docker and CI/CD.",
 
   "tecnologiasUsadas": "Most Used Technologies",
-  "projetosParticipados": "Projects I Have Participated",
+  "projetos": "Projects",
   "experiencia": "Experience",
 
   "contatoTitulo": "Get in Touch",

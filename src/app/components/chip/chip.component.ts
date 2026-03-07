@@ -2,13 +2,22 @@ import { Component, Input } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import {
   diAmazonwebservicesPlainWordmark,
-  diArgocdPlain,
-  diDockerPlain,
-  diGitlabPlain,
-  diGitPlain,
-  diJavaPlain,
 } from '@ng-icons/devicon/plain';
-import { diApachekafkaOriginal, diGithubOriginal} from '@ng-icons/devicon/original';
+import { 
+  diApachekafkaOriginal, 
+  diArgocdOriginal, 
+  diDockerOriginal, 
+  diGithubOriginal, 
+  diGitlabOriginal, 
+  diGitOriginal, 
+  diJavaOriginal,
+  diKubernetesOriginal,
+  diMongodbOriginal,
+  diNewrelicOriginal,
+  diPostgresqlOriginal,
+  diPostmanOriginal,
+  diSpringOriginal,
+} from '@ng-icons/devicon/original';
 
 @Component({
   selector: 'app-chip',
@@ -18,12 +27,18 @@ import { diApachekafkaOriginal, diGithubOriginal} from '@ng-icons/devicon/origin
   providers: provideIcons({
     diAmazonwebservicesPlainWordmark,
     diApachekafkaOriginal,
-    diArgocdPlain,
-    diDockerPlain,
-    diGitPlain,
+    diArgocdOriginal,
+    diDockerOriginal,
+    diGitOriginal,
     diGithubOriginal,
-    diGitlabPlain,
-    diJavaPlain,
+    diGitlabOriginal,
+    diJavaOriginal,
+    diKubernetesOriginal,
+    diMongodbOriginal,
+    diNewrelicOriginal,
+    diPostgresqlOriginal,
+    diPostmanOriginal,
+    diSpringOriginal,
   }),
 })
 export class ChipComponent {

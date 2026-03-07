@@ -8,12 +8,13 @@
   "tituloOla": "Olá, seja bem vindo!",
   "euSou": "Eu sou",
 
-  "pApresentacao1": "Tenho 21 anos, sou estudante de",
+  "pApresentacao1": "Estudante de ",
   "engSoftware": "Engenharia de Software",
-  "pApresentacao2": "na PUC Minas. Comecei a programar há 2 anos e desde então tive contato com diversas tecnologias, principalmente",
+  "pApresentacao2": "na PUC Minas e estagiário de Backend ",
+  "pApresentacao3": " no setor financeiro. Experiência com APIs e microsserviços usando Java, Spring, Micronaut, Kafka e AWS, além de Docker e CI/CD.",
 
   "tecnologiasUsadas": "Tecnologias Mais Utilizadas",
-  "projetosParticipados": "Projetos que Participei",
+  "projetos": "Projetos",
   "experiencia": "Experiência",
 
   "contatoTitulo": "Entre em Contato",
