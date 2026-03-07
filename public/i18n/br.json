@@ -8,9 +8,9 @@
   "tituloOla": "Olá, seja bem vindo!",
   "euSou": "Eu sou",
 
-  "pApresentacao1": "Tenho 20 anos, sou estudante de",
+  "pApresentacao1": "Tenho 21 anos, sou estudante de",
   "engSoftware": "Engenharia de Software",
-  "pApresentacao2": "na PUC Minas. Comecei a programar há 8 anos e desde então tive contato com diversas tecnologias, principalmente",
+  "pApresentacao2": "na PUC Minas. Comecei a programar há 2 anos e desde então tive contato com diversas tecnologias, principalmente",
 
   "tecnologiasUsadas": "Tecnologias Mais Utilizadas",
   "projetosParticipados": "Projetos que Participei",
@@ -45,7 +45,5 @@
   "expDetalhe3": "Detalhes completos sobre a terceira experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
   "expDetalhe4": "Detalhes completos sobre a quarta experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
   "expDetalhe5": "Detalhes completos sobre a quinta experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
-  "expDetalhe6": "Detalhes completos sobre a sexta experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
-
-  "footerNome": "Seu Nome"
+  "expDetalhe6": "Detalhes completos sobre a sexta experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados."
 }

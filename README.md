@@ -2,13 +2,13 @@
 
 ---
 
-# 🏷️ PortfolioLab — Portfólio Pessoal 👨‍💻
+# 🏷️ Portfólio Pessoal 👨‍💻
 
 <table>
   <tr>
     <td width="800px">
       <div align="justify">
-        O <b>PortfolioLab</b> é um portfólio pessoal desenvolvido como projeto acadêmico da disciplina de <b>Laboratório de Desenvolvimento de Software</b> na <a href="https://www.pucminas.br/">PUC Minas</a>. A aplicação web apresenta informações pessoais, tecnologias dominadas, projetos realizados e experiências profissionais, com suporte a <i>internacionalização (PT-BR/EN)</i>, <i>tema claro/escuro</i>, <i>animações de partículas</i> no fundo, <i>design responsivo</i> e uma interface moderna construída com <b>Angular</b> e <b>Tailwind CSS</b>.
+        Meu <b>Portfólio</b> foi desenvolvido como projeto acadêmico da disciplina de <b>Laboratório de Desenvolvimento de Software</b> na <a href="https://www.pucminas.br/">PUC Minas</a>. A aplicação web apresenta informações pessoais, tecnologias dominadas, projetos realizados e experiências profissionais, com suporte a <i>internacionalização (PT-BR/EN)</i>, <i>tema claro/escuro</i>, <i>animações de partículas</i> no fundo, <i>design responsivo</i> e uma interface moderna construída com <b>Angular</b> e <b>Tailwind CSS</b>.
       </div>
     </td>
     <td>
@@ -23,7 +23,7 @@
 
 ## 🚧 Status do Projeto
 
-[![Versão](https://img.shields.io/badge/Versão-v0.0.0-blue?style=for-the-badge)](https://github.com/vicenzofonseca/PortfolioLab-PUCMG-2026-1/releases) ![Angular](https://img.shields.io/badge/Angular-20.2.0-007ec6?style=for-the-badge&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-007ec6?style=for-the-badge&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.2.0-007ec6?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Licença](https://img.shields.io/badge/Licença-MIT-007ec6?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-20.2.0-007ec6?style=for-the-badge&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-007ec6?style=for-the-badge&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.2.0-007ec6?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Licença](https://img.shields.io/badge/Licença-MIT-007ec6?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 ---
 
@@ -49,7 +49,7 @@
 
 ## 📝 Sobre o Projeto
 
-O **PortfolioLab** foi criado como projeto acadêmico da disciplina de **Laboratório de Desenvolvimento de Software** do curso de **Engenharia de Software** da **PUC Minas** (1º semestre de 2026). O objetivo é construir um portfólio pessoal web que demonstre habilidades técnicas e projetos desenvolvidos.
+O **Portfólio Pessoal** foi criado como projeto acadêmico da disciplina de **Laboratório de Desenvolvimento de Software** do curso de **Engenharia de Software** da **PUC Minas** (1º semestre de 2026). O objetivo é construir um portfólio pessoal web que demonstre habilidades técnicas e projetos desenvolvidos.
 
 - **Por que ele existe** — Servir como vitrine profissional e exercício prático de desenvolvimento front-end moderno.
 - **Qual problema ele resolve** — Centraliza informações profissionais, tecnologias e projetos de forma visualmente atrativa e acessível.
@@ -63,7 +63,7 @@ O **PortfolioLab** foi criado como projeto acadêmico da disciplina de **Laborat
 - 🌙 **Tema Claro/Escuro:** Alternância dinâmica entre temas com persistência visual.
 - ✨ **Animação de Partículas:** Fundo interativo com Particles.js que se adapta ao tema selecionado.
 - 🌐 **Internacionalização (i18n):** Suporte a Português (BR) e Inglês (EN) com troca dinâmica de idioma.
-- 👤 **Seção Sobre Mim:** Apresentação pessoal com foto e descrição.
+- 👤 **Seção Sobre Mim:** Apresentação pessoal com descrição.
 - 🛠️ **Tecnologias:** Carrossel/grid de chips exibindo as tecnologias mais utilizadas.
 - 📂 **Projetos:** Grid responsivo de cards com projetos desenvolvidos e links para o GitHub.
 - 💼 **Experiência:** Carrossel horizontal com cards de experiências profissionais.
@@ -196,9 +196,9 @@ npm run start
 
 ## 👥 Autores
 
-| 👤 Nome                        | GitHub                                                                                                                                                            | 📤 Email |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Vicenzo Fonseca de Mello Souza | <div align="center"><a href="https://github.com/vicenzofms"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | —        |
+| 👤 Nome                        | GitHub                                                                                                                                                            |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Renato Douglas Nascimento Silva de Oliveira| <div align="center"><a href="https://github.com/renatodns"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | —        |
 
 ---
 

@@ -8,9 +8,9 @@
   "tituloOla": "Hello, welcome in!",
   "euSou": "I am",
 
-  "pApresentacao1": "I'm 20 years old, currently studying",
+  "pApresentacao1": "I'm 21 years old, currently studying",
   "engSoftware": "Software Engineering",
-  "pApresentacao2": "at PUC Minas. I started to code 8 years ago and since then I had contact with many technologies, mainly",
+  "pApresentacao2": "at PUC Minas. I started to code 2 years ago and since then I had contact with many technologies, mainly",
 
   "tecnologiasUsadas": "Most Used Technologies",
   "projetosParticipados": "Projects I Have Participated",
@@ -45,7 +45,5 @@
   "expDetalhe3": "Full details about the third experience. Responsibilities, technologies used and results achieved.",
   "expDetalhe4": "Full details about the fourth experience. Responsibilities, technologies used and results achieved.",
   "expDetalhe5": "Full details about the fifth experience. Responsibilities, technologies used and results achieved.",
-  "expDetalhe6": "Full details about the sixth experience. Responsibilities, technologies used and results achieved.",
-
-  "footerNome": "Your Name"
+  "expDetalhe6": "Full details about the sixth experience. Responsibilities, technologies used and results achieved."
 }
