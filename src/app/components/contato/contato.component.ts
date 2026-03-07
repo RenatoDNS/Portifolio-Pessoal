@@ -26,9 +26,9 @@ export class ContatoComponent implements AfterViewInit {
   errorMessage = '';
 
   // Configurações do EmailJS - substitua com suas chaves
-  private readonly SERVICE_ID = 'YOUR_SERVICE_ID';
-  private readonly TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-  private readonly PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+  private readonly SERVICE_ID = 'service_fwspuxx';
+  private readonly TEMPLATE_ID = 'template_7py9yvq';
+  private readonly PUBLIC_KEY = 'lPpzjzheMOKrjKu9d';
 
   ngAfterViewInit() {
     emailjs.init(this.PUBLIC_KEY);
