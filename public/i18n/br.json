@@ -29,6 +29,17 @@
   "contatoMensagemErro": "Mensagem é obrigatória (mínimo 10 caracteres).",
   "contatoEnviar": "Enviar Mensagem",
 
+  "proj1Titulo": "DanceSys",
+  "proj1Subtitulo": "Sistema de Gestão",
+  "proj1Descricao": "Sistema especializado para gestão de escolas de dança, integrando alunos, professores e administradores. Gerencia aulas, frequência, desempenho e comunicação em um ambiente online intuitivo e eficiente.",
+  "proj2Titulo": "The Office Co-OP",
+  "proj2Subtitulo": "Plataforma de Aluguel",
+  "proj2Descricao": "Aplicação para aluguel de salas de reunião, oferecendo uma solução prática e eficiente para gerenciar espaços corporativos e facilitar a reserva de ambientes.",
+
+  "expRedHatTitulo": "Red Hat System Administration I (RH124 - RHA)",
+  "expRedHatDescricao": "Administração Básica de Sistemas Linux",
+  "expRedHatDetalhe": "Curso focado na administração básica de sistemas Linux com Red Hat Enterprise Linux, abordando gerenciamento de usuários e permissões, manipulação de arquivos, controle de processos, configuração de rede, gerenciamento de pacotes e uso da linha de comando para administração de servidores.",
+
   "expTitulo1": "Primeira Experiência",
   "expTitulo2": "Segunda Experiência",
   "expTitulo3": "Terceira Experiência",

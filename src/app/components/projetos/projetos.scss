@@ -8,10 +8,9 @@
 
 @media(min-width: 64rem) {
   .grid-container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      "proj1 proj1 proj2 proj3"
-      "proj4 proj5 proj5 proj6";
+      "proj1 proj2";
     gap: 1.5rem;
   }
 }
